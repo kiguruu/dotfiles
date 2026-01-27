@@ -70,7 +70,24 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(
+  git
+  aliases
+  bun
+  copyfile
+  copypath
+  docker
+  docker-compose
+  fnm
+  golang
+  python
+  qrcode
+  uv
+  virtualenv
+  z
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -109,10 +126,6 @@ fpath=(~/.zsh/completions $fpath)
 # compinit
 autoload -Uz compinit && compinit
 zstyle ':completion:*' menu select
-
-# プラグインの読み込み
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # uv系の設定
 export PATH="$HOME/.local/bin:$PATH"
