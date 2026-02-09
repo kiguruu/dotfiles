@@ -153,3 +153,6 @@ fi
 
 # Snap
 export PATH=$PATH:/snap/bin
+
+# opencode
+export PATH=/home/kiguruu/.opencode/bin:$PATH
