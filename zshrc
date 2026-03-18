@@ -137,6 +137,8 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 # goのpath
 export PATH=$PATH:/usr/local/go/bin
+# goでインストールしたもの用
+export PATH=$PATH:/home/kiguruu/go/bin
 
 # GPG Signing
 export GPG_TTY=$TTY
