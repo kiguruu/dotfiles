@@ -1,0 +1,70 @@
+{
+  "version": 3,
+  "skills": {
+    "bun": {
+      "source": "bun.sh",
+      "sourceType": "well-known",
+      "sourceUrl": "https://bun.sh/docs/.well-known/skills/bun/SKILL.md",
+      "skillFolderHash": "",
+      "installedAt": "2026-04-09T06:51:04.472Z",
+      "updatedAt": "2026-04-09T06:51:04.472Z"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "3013fdeb8a11b10b1eb795ec3ae8bfca38f7c26d",
+      "installedAt": "2026-04-09T06:51:11.535Z",
+      "updatedAt": "2026-04-09T06:51:11.535Z"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/react-best-practices/SKILL.md",
+      "skillFolderHash": "a203aee7243640ceb56ce2c6c4ab286573df5e69",
+      "installedAt": "2026-04-09T06:52:14.336Z",
+      "updatedAt": "2026-04-09T06:52:14.336Z"
+    },
+    "web-design-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/web-design-guidelines/SKILL.md",
+      "skillFolderHash": "3116f3e62dbd02b44a598b1aa690d2a8938e8f89",
+      "installedAt": "2026-04-09T06:53:13.552Z",
+      "updatedAt": "2026-04-09T06:53:13.552Z"
+    },
+    "agent-browser": {
+      "source": "vercel-labs/agent-browser",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-browser.git",
+      "skillPath": "skills/agent-browser/SKILL.md",
+      "skillFolderHash": "b6f762bf402cdfaf6a06514e9ce4142ce3e4fb4c",
+      "installedAt": "2026-04-09T06:54:15.395Z",
+      "updatedAt": "2026-04-09T06:54:15.395Z"
+    },
+    "shadcn": {
+      "source": "shadcn/ui",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/shadcn/ui.git",
+      "skillPath": "skills/shadcn/SKILL.md",
+      "skillFolderHash": "a7903e883aaeead6ed509468b499310729968ad9",
+      "installedAt": "2026-04-09T06:55:07.353Z",
+      "updatedAt": "2026-04-09T06:55:07.353Z"
+    },
+    "next-best-practices": {
+      "source": "vercel-labs/next-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/next-skills.git",
+      "skillPath": "skills/next-best-practices/SKILL.md",
+      "skillFolderHash": "ad17eb27952b39a6ab0061bd50e8a2213b63a3ec",
+      "installedAt": "2026-04-09T06:55:17.035Z",
+      "updatedAt": "2026-04-09T06:55:17.035Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  }
+}
